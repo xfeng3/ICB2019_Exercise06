@@ -1,0 +1,23 @@
+loaddata= read.csv(file="wages.csv")   #read csv file wages and change its name to loaddata 
+line<-6    #read the first 5 lines as head function in Unix
+  
+  gender yearsExperience yearsSchool
+1 female               9          13
+2 female              12          12
+3 female              11          11
+4 female               9          14
+5 female               8          14
+      wage
+1 6.315296
+2 5.479770
+3 3.642170
+4 4.593337
+5 2.418157
+
+loaddata[1:5,2:3]  #read the first five lines and the second and third column
+yearsExperience yearsSchool
+1               9          13
+2              12          12
+3              11          11
+4               9          14
+5               8          14
